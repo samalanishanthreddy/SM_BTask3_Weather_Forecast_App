@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WeatherWise</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="color:#15719f; text-align:center;">WeatherWise</h1>
+        <input type="text" id="city" placeholder="Enter city">
+        <button onclick="getWeather()">Get Weather</button>
+
+        <h3>Present Weather</h3>
+        <div id="weather-info" class="weather-info">
+            <!-- Weather information will be displayed here -->
+        </div>
+
+        <h3>24 Hours Weather</h3>
+        <div id="hourly-forecast" class="hourly-forecast">
+            <!-- Hourly forecast information will be displayed here -->
+        </div>
+
+        <h3>Five Days Forecast</h3>
+        <div id="five-day-forecast" class="five-day-forecast">
+            <!-- Five day forecast information will be displayed here -->
+        </div>
+    </div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
